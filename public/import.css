@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* デフォルトスタイルクリア */
+@import "reset.css";
+
+/* スタイル適用 */
+@import "style.css";

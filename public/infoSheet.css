@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* 同意書特有のスタイルシート */
+
+img.logo {
+	width: 30%;
+	height: 18%;
+}
+
+h1 span {
+	font-size: 80%;
+	font-style: italic;
+}
+
+p .consentQuestion {
+	width: 500px;
+    margin-right: auto;
+}
+
+p#consentform {
+	font-size: small;
+}
+
+#answer {
+	width: 20%;
+}
+
+td {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom: 1px #000 solid;
+}
+
+.researcherNames {
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    font-family: 'Times';
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.researcherNames span {
+	font-size: 130%;
+	font-family: 'Vertana';
+	font-style: normal;
+}
+
+/*同意書の内容部分の囲み*/
+#informationSheet{
+	width: 90%;
+	margin: 20px 10px 20px 10px;
+	background-color: #fff;
+	padding: 5px 15px;
+	border: #000000 1px solid;
+	font-family: 'Verdana';
+}
+
+#informationSheet span {
+	font-size: 100%;
+	color: #df4839;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#informationSheet .inner{
+	padding: 10px 10px;
+	text-align: left;
+	font-size: 105%;
+	line-height: 150%;
+}
+
+/*同意書の下のフォーム設定*/
+#login{
+	width: 90%;
+	margin-right: 0px;
+	margin-left: 10px;
+	padding: 2px 2px;
+}
+
+#agreement{
+	text-align: left;
+}
+
+#loginForm{
+	font-size: 110%;
+	text-align: left;
+	padding: 15px 10px;
+}
+
+#capture {
+	text-align: right;
+}
+
+#proceed{
+	width: 150px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 1.1em;
+}
+
+/*==========================================================
+		ウィンドウ幅が0〜479pxの場合に適用するCSS
+==============================================================*/
+
+@media screen and (max-width:479px){
+	#wrap {
+		padding: 10px 10px;
+	}
+
+	p.lead{
+		text-align: left;
+		padding: 0px 0px 0px 25px;
+	}
+
+	/*同意書の内容部分の囲み*/
+	#informationSheet{
+		width: 90%;
+		margin: 20px 1px 20px 1px;
+		background-color: #fff;
+		padding: 5px 15px;
+		border: #000000 1px solid;
+	}
+
+	#informationSheet .inner{
+		padding-bottom: 30px;
+		margin: 0px 5px 5px -15px;
+	}
+}
+
+/*==========================================================
+		ウィンドウ幅が1024 ~ pxの場合に適用するCSS
+==============================================================*/

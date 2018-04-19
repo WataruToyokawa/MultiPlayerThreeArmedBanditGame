@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* 同意書特有のスタイルシート */
+
+h2{
+	margin-bottom: 40px;
+}
+
+h3{
+	margin-left: 30px;
+}
+
+#proceed{
+	width: 150px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 1.1em;
+}
+
+#submit{
+	text-align: right;
+}
+
+.answer{
+	width: 120px;
+	height: 30px;
+	font-size: 120%;
+	margin: 10px 10px 40px 50px;
+}
+
+.questionRadio {
+	margin: 20px 10px 40px 50px;
+}
+
+.questionRadio td, .questionRadio th{
+	width: 100px;
+	padding: 5px;
+	border: 1px #000 solid;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 120%;
+	text-align: center;
+}
+
+#imaginQ img{
+	width: 190px;
+	height: 220px;
+	vertical-align: middle;
+	margin: 5px 20px 25px 10px;
+}
+
+#imaginTable{
+	margin: 10px 10px 30px 25px;
+}
+
+td#imaginTable, th#imaginTable{
+	padding: 5px;
+	border: 1px #000 solid;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 100%;
+	text-align: left;
+}
+
+
+#country{
+	margin: 10px 10px 30px 50px;
+}
+
+#sex{
+	margin: 10px 10px 30px 50px;
+}

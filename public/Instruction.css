@@ -1,0 +1,13 @@
+/* 全てに適用するCSS */
+p {
+	color: #00f ;	/* 青色 */
+}
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and (max-width:479px){
+
+	p {
+		color: #f00 ;	/* 赤色 */
+	}
+
+}

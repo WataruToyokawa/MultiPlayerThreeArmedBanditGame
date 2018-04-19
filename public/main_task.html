@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- ビューポートの設定 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>task 1</title>
+  <link href="import.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="mainPage.css" media="screen" rel="stylesheet" type="text/css">
+  <!-- importing heavy staffs in advance -->
+  <!--<link rel="prefetch" href="img/machine_normal_1.png">
+  <link rel="prefetch" href="img/machine_normal_2.png">
+  <link rel="prefetch" href="img/machine_normal_3.png">
+  <link rel="prefetch" href="img/machine_active_1.png">
+  <link rel="prefetch" href="img/machine_active_2.png">
+  <link rel="prefetch" href="img/machine_active_3.png">-->
+  <!--<link href="import.css" rel="stylesheet" type="text/css" media="all" />-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src='/mainPage.js'></script>
+
+</head>
+<body>
+
+  <div id='wrap'>
+    <h1 id='gameLabel'></h1>
+    <div id='current_round'></div>
+    <div id='total_earning'></div>
+
+    <div id='restTime'></div>
+    <div id='current_groupsize'></div>
+
+    <div id='box_area'></div>
+  </div>
+  <div id="footer">
+    <table>
+      <tr>
+        <td><img src="./img/machine_normal_1.png" class="img_hidden" /></td>
+        <td><img src="./img/machine_normal_2.png" class="img_hidden" /></td>
+        <td><img src="./img/machine_normal_3.png" class="img_hidden" /></td>
+        <td><img src="./img/machine_active_1.png" class="img_hidden" /></td>
+        <td><img src="./img/machine_active_2.png" class="img_hidden" /></td>
+        <td><img src="./img/machine_active_3.png" class="img_hidden" /></td>
+      </tr>
+    </table>
+  </div>
+  <!--<form style="display: hidden" action="http://toyowataexp.webk-vps.net/st-andrews-webexp2/public/questionnaire.php" method="POST" id="form">-->
+  <form style="display: hidden" action="http://localhost:8888/MultiPlayerThreeArmedBanditGame/public/questionnaire.php" method="POST" id="form">
+    <input type="hidden" id="amazonID" name="amazonID" value=""/>
+    <input type="hidden" id="bonus_for_waiting" name="bonus_for_waiting" value=""/>
+    <input type="hidden" id="totalGamePayoff" name="totalGamePayoff" value=""/>
+    <input type="hidden" id="ping_over" name="ping_over" value="0"/>
+    <input type="hidden" id="tab_over" name="tab_over" value="0"/>
+    <input type="hidden" id="confirmationID" name="confirmationID" value=""/>
+  </form>
+
+</body>
+</html>

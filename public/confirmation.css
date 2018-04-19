@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* Result確認画面のスタイルシート */
+img.logo {
+	width: 30%;
+	height: 18%;
+}
+
+h2 {
+	font-size: 100%;
+}
+
+#innerText{
+	font-size: 90%;
+	line-height: 120%;
+	padding: 5px 15px;
+	margin-bottom: 30px;
+}
+
+.researcherNames {
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    font-family: 'Times';
+    font-style: italic;
+}
+
+.researcherNames span {
+	font-size: 130%;
+	font-family: 'Vertana';
+	font-style: normal;
+}
+
+/*Earningsの設定*/
+#earnings{
+	width: 100%;
+	margin: 20px 10px 40px 10px;
+}
+
+#earnings p{
+	width: 70%;
+	font-size: 300%;
+	line-height: 130%;
+	padding: 5px 15px;
+	margin: 10px 10px;
+	color: #000;
+	text-align: center;
+}
+
+#earnings div{
+	width: 70%;
+	font-size: 160%;
+	font-family: "Verdana";
+	line-height: 130%;
+	padding: 5px 15px;
+	margin: 10px 10px;
+	text-align: left;
+}
+
+
+/*confirmationの設定*/
+#confirmation{
+	width: 100%;
+	margin: 20px 10px 40px 10px;
+}
+
+#confirmation p{
+	width: 90%;
+	font-size: 200%;
+	font-family: "century";
+	line-height: 100%;
+	padding: 5px 15px;
+	margin: 10px 10px;
+	color: #df4839;
+	text-align: center;
+}
+
+#debriefing{
+	width: 90%;
+	margin: 20px 10px 20px 10px;
+	background-color: #fff;
+	padding: 5px 15px;
+	border: #000000 1px solid;
+	font-family: 'Verdana';
+}
+
+#debriefing span {
+	font-size: 90%;
+	font-weight: normal;
+	font-style: italic;
+	font-family: "Times New"
+}
+
+#debriefing .inner{
+	padding: 10px 10px;
+	text-align: left;
+	font-size: 105%;
+	line-height: 150%;
+}
+
+#debriefing .reference {
+	font-family: "century";
+}
+
+li {
+	font-size: 90%;
+}
+
+fieldset{
+	border: #94c8b1 1px solid;
+
+}
+
+fieldset legend{
+	padding: 5px 0px;
+	text-align: center;
+	margin: 10px 10px;
+	font-size: 200%;
+	color: #4e0000;
+}
+
+/*==========================================================
+		ウィンドウ幅が0〜479pxの場合に適用するCSS
+==============================================================*/
+@media screen and (max-width:479px){
+	#wrap{
+		padding: 10px 10px;
+	}
+	#earnings p{
+		width: 90%;
+		font-size: 150%;
+		line-height: 110%;
+		padding: 2px 5px;
+		margin: 5px 5px;
+		color: #000;
+		text-align: center;
+	}
+	#confirmation p{
+		width: 70%;
+		font-size: 150%;
+		font-family: "century";
+		line-height: 110%;
+		padding: 2px 5px;
+		margin: 5px 5px;
+		color: #df4839;
+		text-align: center;
+	}
+	#earnings div{
+		width: 90%;
+		font-size: 100%;
+		line-height: 110%;
+	}
+	#debriefing{
+		width: 90%;
+		margin: 20px 1px 20px 1px;
+		background-color: #fff;
+		padding: 5px 15px;
+		border: #000000 1px solid;
+	}
+
+	#debriefing .inner{
+		padding-bottom: 30px;
+		margin: 0px 5px 5px -15px;
+	}
+}
