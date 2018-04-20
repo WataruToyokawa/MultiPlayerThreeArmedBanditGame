@@ -8,7 +8,7 @@ A browser-based collective decision-making and reinforcement-learning task (i.e.
 + The game server program (app.js) is run by node.js + socket.io + express. 
 + You may want to change line:17 so that the game server can find your client-side web server. 
 + By changing value of _condition_ (line:11) you can modify the slot machines' allocation (e.g. when _condition_ = 1, the left, centre and right slot are the poor-excellent, poor and good option, respectively. 
-+ To run the game server, set the current directory and write the folowing line in the terminal:
++ To run the game server, set the current directory and write the following lines on the terminal:
 
 ```bash
 cd YourWorkingDir
